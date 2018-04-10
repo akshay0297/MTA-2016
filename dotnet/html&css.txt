@@ -1,0 +1,119 @@
+paired tags has content b/w them
+visible components of page are added in body .
+interface/links are to be put in head part . 
+<p>  paragraph content (plain text content) </p>
+content can be child tags and also plain text
+attributes : to qualify an element 
+<html language="english">
+html:element
+language : attribute 
+english : value 
+empty tags : nothing to keep in it but only attributes eg: img/,br/,hr/
+headings <h1-6>Headings</h1-6>
+block type :  covers the entire width of the page and if the text extends it shifts to the new line
+inline type : covers only the required sapce and no new line is generated
+<pre><p> to render the spaces like written in the code</p></pre> 
+<hr/> : to give a horizontle line on the page  
+<br/> : to break lines 
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<table border>
+<caption> to give caption to the table </caption>
+<tr> to give rows 
+<th> for headers oh individual cells </th>
+<td> individual cells </td>
+</tr>
+</table> 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+row span and col span
+
+<th rowspan="2">child  header </th >
+<td> data corresponding to child header</td>
+rowspan : vertically
+colspan : horizontally
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+image insertion 
+
+<img scr = "image.jpg" alt = "THE NAME" width = "int" height = "int ">
+
+(image loaded in same folder )^
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<a href="reference of final destination to be directed to > text to be shown to be directed to that link </a>
+
+<target ="_blank " tgo redirect in a new tabe >
+
+image can be used as an hyper likn by putting it into anchored tags 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+lists : bulleted/unordered lists , numbered/ordered lists , defination lists 
+ 
+
+un ordered list 
+<ul>
+<li> list items </li>
+</ul> 
+
+ordered lists 
+<ol type="a">(A,a,I(romans),i)
+<li> list items </li>
+</a>
+
+defination lists 
+
+<dl>
+<dt> term </dt>
+<dd> term  explaination </dd>
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+CSS : cascading style sheet 
+
+style rules : inline , internal , external
+
+inline : defined in the tag and can be appliued only to that tag 
+internal : dehined in the head oof the page within the <style > tag and affects all the occurence of the elements specified in the css rule in the page
+external : style rules are defined in an external .css file which can be used to stylize elements across multiple pages 
+
+
+to apply inline : using the style attribute of the tag 
+<p style= "color : red ; text-decoration : undreline "> content </p> 
+
+
+tp apply internal : 
+ 
+<head>
+<style>
+
+p --> selector 
+{
+color : red 
+text-decoration ; underline
+}-->Rule 
+
+</style>
+</head>
+
+
+selector that maps to a tag name is an element selector ...  
+
+
+to apply external :
+it will be a .css file 
+and no stlye tags in it but define the rule directly and then link it with html hile bu adding  <link rel="stylesheet" href="file.css"/>
+in the head tag o fhtml file 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------

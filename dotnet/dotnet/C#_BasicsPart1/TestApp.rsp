@@ -1,0 +1,9 @@
+# External assembly references.
+/r:System.Windows.Forms.dll
+# output and files to compile (using wildcard syntax).
+/target:exe /out:MultiFile.exe File_Disp_Msg.cs File_Msg.cs
+
+
+#on the command prompt, use csc @TestApp.rsp
+
+

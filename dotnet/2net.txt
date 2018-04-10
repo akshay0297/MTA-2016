@@ -1,0 +1,8 @@
+Application (windows/web): interface and behaviour 
+interface: in .aspx files : design/source views
+behaviour: makes a website responsive ,  events(actions inherited by the system or the user) , event handlers (methods which work in response to an event )
+1. code-behind
+2. master page
+&copy; -repesents copyrights symbol
+ 
+
